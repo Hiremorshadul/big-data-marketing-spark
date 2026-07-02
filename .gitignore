@@ -1,0 +1,21 @@
+# Large Datasets
+data/*.xlsx
+data/*.csv
+
+# Python/Jupyter Checkpoints & Temp Files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Spark Metadata & Warehouses
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Temp inspection files
+graph_cells_details.txt
+streaming_cells_details.txt
+
+# OS Files
+.DS_Store
+Thumbs.db
